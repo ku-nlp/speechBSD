@@ -2,6 +2,15 @@
 
 This is an extension of the [BSD corpus](https://github.com/tsuruoka-lab/BSD) with audio files and speaker attribute information.
 
+## Download
+
+```
+git clone https://github.com/ku-nlp/speechBSD.git
+cd speechBSD
+wget https://lotus.kuee.kyoto-u.ac.jp/~sshimizu/data/speechBSD_wav16k_mono.tar.gz
+tar zxvf speechBSD_wav16k_mono.tar.gz
+```
+
 ## Structure
 
 - `wav` directory contains wav files (16 kHz, mono channel), which are classified to `train`, `dev`, and `test`.
