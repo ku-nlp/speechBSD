@@ -72,3 +72,8 @@ tar zxvf speechBSD_wav16k_mono.tar.gz
 
 - English speech is collected from English speakers who are from the US.
 	- `en_spk` is one of the 50 states, written in postal abbreviation.
+
+
+## License
+
+This dataset is licensed under [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
