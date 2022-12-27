@@ -11,6 +11,17 @@ wget https://lotus.kuee.kyoto-u.ac.jp/~sshimizu/data/speechBSD_wav_20221026.tar.
 tar zxvf speechBSD_wav16k_mono.tar.gz
 ```
 
+## Statistics
+
+|           |  Train |  Dev. |  Test |
+| --------- | ------:| -----:| -----:|
+| Scenarios |    670 |    69 |    69 |
+| Sentences | 20,000 | 2,051 | 2,120 |
+| En audio (h) | 20.1 | 2.1 | 2.1 |
+| Ja audio (h) | 25.3 | 2.7 | 2.7 |
+| En audio gender (male % / female %) | 47.2 / 52.8 | 50.1 / 49.4 | 44.4 / 55.6 |
+| Ja audio gender (male % / female %) | 68.0 / 32.0 | 62.3 / 37.7 | 69.0 / 31.0 |
+
 ## Structure
 
 - `wav` directory contains wav files (16 kHz, mono channel), which are classified to `train`, `dev`, and `test`.
