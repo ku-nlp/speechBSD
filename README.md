@@ -85,6 +85,11 @@ tar zxvf speechBSD_wav_20221026.tar.gz
 	- `en_spk` is one of the 50 states, written in postal abbreviation.
 
 
+## Citation
+
+If you find the dataset useful, please cite our paper "Towards Speech Dialogue Translation Mediating Speakers of Different Languages" (accepted to ACL 2023 Findings; coming soon).
+
+
 ## License
 
 This dataset is licensed under [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
