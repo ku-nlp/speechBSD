@@ -8,7 +8,7 @@ This is an extension of the [BSD corpus](https://github.com/tsuruoka-lab/BSD) wi
 git clone https://github.com/ku-nlp/speechBSD.git
 cd speechBSD
 wget https://lotus.kuee.kyoto-u.ac.jp/~sshimizu/data/speechBSD_wav_20221026.tar.gz
-tar zxvf speechBSD_wav16k_mono.tar.gz
+tar zxvf speechBSD_wav_20221026.tar.gz
 ```
 
 ## Statistics
