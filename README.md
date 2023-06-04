@@ -1,4 +1,4 @@
-# SpeechBSD corpus
+# SpeechBSD Dataset
 
 This is an extension of the [BSD corpus](https://github.com/tsuruoka-lab/BSD) with audio files and speaker attribute information.
 
@@ -87,7 +87,18 @@ tar zxvf speechBSD_wav_20221026.tar.gz
 
 ## Citation
 
-If you find the dataset useful, please cite our paper "Towards Speech Dialogue Translation Mediating Speakers of Different Languages" (accepted to ACL 2023 Findings; coming soon).
+If you find the dataset useful, please cite our paper "[Towards Speech Dialogue Translation Mediating Speakers of Different Languages](https://arxiv.org/abs/2305.09210)" (accepted to ACL 2023 Findings; coming soon).
+
+```
+@misc{shimizu-etal-2023-speechbsd,
+	title={Towards Speech Dialogue Translation Mediating Speakers of Different Languages}, 
+	author={Shuichiro Shimizu and Chenhui Chu and Sheng Li and Sadao Kurohashi},
+	year={2023},
+	eprint={2305.09210},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL}
+}
+```
 
 
 ## License
