@@ -87,16 +87,23 @@ tar zxvf speechBSD_wav_20221026.tar.gz
 
 ## Citation
 
-If you find the dataset useful, please cite our paper "[Towards Speech Dialogue Translation Mediating Speakers of Different Languages](https://arxiv.org/abs/2305.09210)" (accepted to ACL 2023 Findings; coming soon).
+If you find the dataset useful, please cite our ACL 2023 Findings paper: [Towards Speech Dialogue Translation Mediating Speakers of Different Languages](https://aclanthology.org/2023.findings-acl.72/).
 
 ```
-@misc{shimizu-etal-2023-speechbsd,
-	title={Towards Speech Dialogue Translation Mediating Speakers of Different Languages}, 
-	author={Shuichiro Shimizu and Chenhui Chu and Sheng Li and Sadao Kurohashi},
-	year={2023},
-	eprint={2305.09210},
-	archivePrefix={arXiv},
-	primaryClass={cs.CL}
+@inproceedings{shimizu-etal-2023-towards,
+    title = "Towards Speech Dialogue Translation Mediating Speakers of Different Languages",
+    author = "Shimizu, Shuichiro  and
+      Chu, Chenhui  and
+      Li, Sheng  and
+      Kurohashi, Sadao",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.72",
+    pages = "1122--1134",
+    abstract = "We present a new task, speech dialogue translation mediating speakers of different languages. We construct the SpeechBSD dataset for the task and conduct baseline experiments. Furthermore, we consider context to be an important aspect that needs to be addressed in this task and propose two ways of utilizing context, namely monolingual context and bilingual context. We conduct cascaded speech translation experiments using Whisper and mBART, and show that bilingual context performs better in our settings.",
 }
 ```
 
