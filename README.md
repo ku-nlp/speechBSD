@@ -4,12 +4,16 @@ This is an extension of the [BSD corpus](https://github.com/tsuruoka-lab/BSD) wi
 
 ## Download
 
+To download from this repository:
+
 ```
 git clone https://github.com/ku-nlp/speechBSD.git
 cd speechBSD
 wget https://lotus.kuee.kyoto-u.ac.jp/~sshimizu/data/speechBSD_wav_20221026.tar.gz
 tar zxvf speechBSD_wav_20221026.tar.gz
 ```
+
+You can also download it via [huggingface](https://huggingface.co/datasets/ku-nlp/speech-bsd-hf).
 
 ## Statistics
 
